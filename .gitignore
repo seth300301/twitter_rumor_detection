@@ -1,3 +1,5 @@
 .DS_Store
 project-data
 train_dev_data
+test_data
+covid_data
