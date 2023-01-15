@@ -1,8 +1,8 @@
-# twitter_rumor_detection
+# Twitter Rumour Dectector
 
-### App Keys and Tokens:
-- API Key: JomMnaD4AszMiSykI2NkGCdCT
-- API Key Secret: fTwMjWcUAv0cF3ea5MfI5Y8l9YlNC2qWxdhOCXyDEEJiTIt2h2
-- Bearer Token: AAAAAAAAAAAAAAAAAAAAAI%2FnbgEAAAAASNSbePMKDZ2%2BrcK%2BLf6h44gPjMY%3Dw0xoJvCQZUyHHTTV1qJnMhpKhfqNX5WGxGSoFCIBLxOH6Avi9U
-- Access Token: 627204319-fkgmioi1ek6EdBZiVdbHF4u9zYhCJbcr05kZe96b
-- Access Token Secret: KteOAzRkadEquyG6sMqpPywPYx21YIZtTVKNZtlObcm7H
+## Summary
+With the popularity of the internet and social media in recent years, social media has become an indis- pensable part of people’s lives. More and more people are using social media not only to connect with family and friends, but also to keep up to date with what is currently happening. The role of the user has also changed from that of a receiver of information to that of a creator. Many news outlets publish news on social media, and ordinary users can also express their views and opinions. However, the growth of social media has accelerated the spread of information and has also brought about a proliferation of false rumours. Twitter, one of the most popular social media, has generated a large number of rumours that are difficult to verify and are spreading rapidly among users. Therefore, it is crucial to identify whether a message is a rumour or not.
+
+In this project a model was trained based on the given training data, optimised on the development data, tested on the test data, and ultimately applied to determine whether tweet events related to COVID-19 are rumours. All the datasets contain events, each having tweet IDs of a source tweets and its replies. When crawling for the tweets by their IDs using the Twitter API, some tweets could not be retrieved as they have either been deleted or the user accounts have been deactivated. These tweets have been ignored in this project.
+
+Please read 'Report.pdf' for the methodologies, the experimental design process, the results that followed from the experiment, as well as our discussion on the project.
